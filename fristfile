@@ -1,0 +1,11 @@
+git config --global/local user.name user.email *
+git status
+git add file  add to staged ------ git restore --stage file : to restage
+git commit file -m ' message'  commit to resportiy ---------------
+git log --oneline --grape --all -num :显示日志文件
+git mv old new ：改名字
+git diff :工作区和暂存区比较，diff --cached :暂存区和commmit ，diff commit1 commit2 ：两个commit比较 
+	都可以接——file 比较具体文件
+git branch -D/d name 删除分支
+git remote remove name :删除联系，
+git remote add name url :建立联系 url = file://path 是可以和另一个建立联系

@@ -1,4 +1,0 @@
-git config --global/local user.name user.email *
-git status
-git add file  add to staged ------ git restore --stage file : to restage
-git commit file -m ' message'  commit to resportiy ---------------
